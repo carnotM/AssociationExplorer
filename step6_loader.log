@@ -1,0 +1,501 @@
+2026-07-07 11:58:27,146 | INFO | =================================================================
+2026-07-07 11:58:27,146 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-07-07 11:58:27,146 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-CVAE.rds
+2026-07-07 11:58:27,146 | INFO | Label   : CVAE
+2026-07-07 11:58:27,146 | INFO | =================================================================
+2026-07-07 11:58:27,146 | INFO |    Lecture de beamm.brussels-250528-CVAE.rds ...
+2026-07-07 12:10:53,430 | INFO | =================================================================
+2026-07-07 12:10:53,430 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-07-07 12:10:53,431 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-CVAE.rds
+2026-07-07 12:10:53,431 | INFO | Label   : CVAE
+2026-07-07 12:10:53,431 | INFO | =================================================================
+2026-07-07 12:10:53,431 | INFO |    Lecture de beamm.brussels-250528-CVAE.rds ...
+2026-07-07 12:10:53,765 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-07-07 12:10:53,768 | WARNING |    ⚠️  rpy2 non installé → essai subprocess R...
+2026-07-07 12:10:53,771 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-07-07 12:10:53,790 | WARNING |    ⚠️  Rscript introuvable dans le PATH
+2026-07-07 12:28:31,321 | INFO | =================================================================
+2026-07-07 12:28:31,321 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-07-07 12:28:31,321 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-CVAE.rds
+2026-07-07 12:28:31,321 | INFO | Label   : CVAE
+2026-07-07 12:28:31,321 | INFO | =================================================================
+2026-07-07 12:28:31,321 | INFO |    Lecture de beamm.brussels-250528-CVAE.rds ...
+2026-07-07 12:28:31,490 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-07-07 12:28:31,588 | INFO | cffi mode is CFFI_MODE.ANY
+2026-07-07 12:28:31,620 | INFO | R home found: C:\Program Files\R\R-4.3.3
+2026-07-07 12:28:31,620 | INFO | R exec path: C:\Program Files\R\R-4.3.3\bin\x64\R.exe
+2026-07-07 12:28:31,865 | WARNING | Error importing in API mode: ImportError('DLL load failed while importing _rinterface_cffi_api: La procédure spécifiée est introuvable.')
+2026-07-07 12:28:31,924 | WARNING | Trying to import in ABI mode.
+2026-07-07 12:28:31,974 | INFO | Default options to initialize R: rpy2, --quiet, --no-save
+2026-07-07 12:28:31,986 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-07-07 12:28:31,988 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-07-07 12:28:34,737 | INFO |    ✅ [Rscript] 2,251 lignes × 528 colonnes
+2026-07-07 12:28:34,753 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('CVAE')
+2026-07-07 12:28:34,769 | INFO |    [CVAE] 10 col. insuffisantes exclues
+2026-07-07 12:28:34,879 | INFO |    [CVAE] 518 variables retenues (156 quant, 362 cat)
+2026-07-07 12:28:34,879 | INFO | 
+=================================================================
+2026-07-07 12:28:34,880 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-07-07 12:28:34,880 | INFO |    Mode         : single
+2026-07-07 12:28:34,880 | INFO |    Observations : 2,251
+2026-07-07 12:28:34,880 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-07-07 12:28:34,881 | INFO |    Enquêtes     : ['CVAE']
+2026-07-07 12:28:34,881 | INFO |    Mémoire      : 10.0 MB
+2026-07-07 12:28:34,881 | INFO | =================================================================
+2026-07-07 12:28:34,899 | INFO | =================================================================
+2026-07-07 12:28:34,899 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-07-07 12:28:34,900 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-GAN.rds
+2026-07-07 12:28:34,900 | INFO | Label   : GAN
+2026-07-07 12:28:34,900 | INFO | =================================================================
+2026-07-07 12:28:34,900 | INFO |    Lecture de beamm.brussels-250528-GAN.rds ...
+2026-07-07 12:28:35,015 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-07-07 12:28:35,015 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-07-07 12:28:35,015 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-07-07 12:28:37,243 | INFO |    ✅ [Rscript] 1,954 lignes × 528 colonnes
+2026-07-07 12:28:37,243 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('GAN')
+2026-07-07 12:28:37,256 | INFO |    [GAN] 5 col. insuffisantes exclues
+2026-07-07 12:28:37,355 | INFO |    [GAN] 523 variables retenues (163 quant, 360 cat)
+2026-07-07 12:28:37,355 | INFO | 
+=================================================================
+2026-07-07 12:28:37,355 | INFO | ✅ [GAN] CHARGEMENT TERMINÉ
+2026-07-07 12:28:37,356 | INFO |    Mode         : single
+2026-07-07 12:28:37,356 | INFO |    Observations : 1,954
+2026-07-07 12:28:37,356 | INFO |    Variables    : 523 (163 quant, 360 cat)
+2026-07-07 12:28:37,356 | INFO |    Enquêtes     : ['GAN']
+2026-07-07 12:28:37,363 | INFO |    Mémoire      : 8.7 MB
+2026-07-07 12:28:37,363 | INFO | =================================================================
+2026-07-07 12:28:38,008 | INFO | 💾 Cache sauvegardé : data\cache\v1.parquet | méta : data\cache\v1.meta.json
+2026-07-07 12:28:38,625 | INFO | ♻️  Cache chargé : data\cache\v1.parquet
+2026-07-07 12:28:38,625 | INFO | 
+=================================================================
+2026-07-07 12:28:38,625 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-07-07 12:28:38,625 | INFO |    Mode         : single
+2026-07-07 12:28:38,625 | INFO |    Observations : 2,251
+2026-07-07 12:28:38,625 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-07-07 12:28:38,625 | INFO |    Enquêtes     : ['CVAE']
+2026-07-07 12:28:38,655 | INFO |    Mémoire      : 10.0 MB
+2026-07-07 12:28:38,655 | INFO | =================================================================
+2026-07-07 12:28:38,712 | INFO | =================================================================
+2026-07-07 12:28:38,712 | INFO | MODE FUTUR — Dossier de fichiers .rds par enquête
+2026-07-07 12:28:38,713 | INFO | Dossier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\by_survey
+2026-07-07 12:28:38,713 | INFO | =================================================================
+2026-07-07 12:28:38,714 | INFO | 4 fichier(s) .rds trouvé(s)
+2026-07-07 12:28:38,714 | INFO | 
+📂 eu_lfs.rds → EU-LFS
+2026-07-07 12:28:38,714 | INFO |    Lecture de eu_lfs.rds ...
+2026-07-07 12:28:38,730 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-07-07 12:28:38,731 | INFO |    [EU-LFS] 5 variables retenues (3 quant, 2 cat)
+2026-07-07 12:28:38,733 | INFO | 
+📂 eu_silc.rds → EU-SILC
+2026-07-07 12:28:38,733 | INFO |    Lecture de eu_silc.rds ...
+2026-07-07 12:28:38,747 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-07-07 12:28:38,749 | INFO |    [EU-SILC] 5 variables retenues (3 quant, 2 cat)
+2026-07-07 12:28:38,749 | INFO | 
+📂 hbs.rds → HBS
+2026-07-07 12:28:38,750 | INFO |    Lecture de hbs.rds ...
+2026-07-07 12:28:38,764 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-07-07 12:28:38,765 | INFO |    [HBS] 4 variables retenues (2 quant, 2 cat)
+2026-07-07 12:28:38,765 | INFO | 
+📂 hfcs.rds → HFCS
+2026-07-07 12:28:38,766 | INFO |    Lecture de hfcs.rds ...
+2026-07-07 12:28:38,779 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-07-07 12:28:38,781 | INFO |    [HFCS] 4 variables retenues (2 quant, 2 cat)
+2026-07-07 12:28:38,781 | INFO | 
+🔗 Fusion de 4 fichiers → 300 lignes communes
+2026-07-07 12:28:38,784 | INFO | 
+=================================================================
+2026-07-07 12:28:38,784 | INFO | ✅ [Real data (futur)] CHARGEMENT TERMINÉ
+2026-07-07 12:28:38,784 | INFO |    Mode         : folder
+2026-07-07 12:28:38,784 | INFO |    Observations : 300
+2026-07-07 12:28:38,785 | INFO |    Variables    : 18 (10 quant, 8 cat)
+2026-07-07 12:28:38,785 | INFO |    Enquêtes     : ['EU-LFS', 'EU-SILC', 'HBS', 'HFCS']
+2026-07-07 12:28:38,786 | INFO |    Mémoire      : 0.0 MB
+2026-07-07 12:28:38,786 | INFO | =================================================================
+2026-07-09 01:53:35,130 | INFO | =================================================================
+2026-07-09 01:53:35,130 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-07-09 01:53:35,131 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-CVAE.rds
+2026-07-09 01:53:35,131 | INFO | Label   : CVAE
+2026-07-09 01:53:35,131 | INFO | =================================================================
+2026-07-09 01:53:35,131 | INFO |    Lecture de beamm.brussels-250528-CVAE.rds ...
+2026-07-09 01:53:35,379 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-07-09 01:53:35,466 | INFO | cffi mode is CFFI_MODE.ANY
+2026-07-09 01:53:35,477 | INFO | R home found: C:\Program Files\R\R-4.3.3
+2026-07-09 01:53:35,481 | INFO | R exec path: C:\Program Files\R\R-4.3.3\bin\x64\R.exe
+2026-07-09 01:53:35,971 | WARNING | Error importing in API mode: ImportError('DLL load failed while importing _rinterface_cffi_api: La procédure spécifiée est introuvable.')
+2026-07-09 01:53:36,070 | WARNING | Trying to import in ABI mode.
+2026-07-09 01:53:36,130 | INFO | Default options to initialize R: rpy2, --quiet, --no-save
+2026-07-09 01:53:36,142 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-07-09 01:53:36,144 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-07-09 01:53:39,276 | INFO |    ✅ [Rscript] 2,251 lignes × 528 colonnes
+2026-07-09 01:53:39,278 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('CVAE')
+2026-07-09 01:53:39,294 | INFO |    [CVAE] 10 col. insuffisantes exclues
+2026-07-09 01:53:39,440 | INFO |    [CVAE] 518 variables retenues (156 quant, 362 cat)
+2026-07-09 01:53:39,440 | INFO | 
+=================================================================
+2026-07-09 01:53:39,440 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-07-09 01:53:39,440 | INFO |    Mode         : single
+2026-07-09 01:53:39,440 | INFO |    Observations : 2,251
+2026-07-09 01:53:39,442 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-07-09 01:53:39,442 | INFO |    Enquêtes     : ['CVAE']
+2026-07-09 01:53:39,451 | INFO |    Mémoire      : 10.0 MB
+2026-07-09 01:53:39,451 | INFO | =================================================================
+2026-07-09 01:53:39,461 | INFO | =================================================================
+2026-07-09 01:53:39,461 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-07-09 01:53:39,461 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-GAN.rds
+2026-07-09 01:53:39,462 | INFO | Label   : GAN
+2026-07-09 01:53:39,462 | INFO | =================================================================
+2026-07-09 01:53:39,462 | INFO |    Lecture de beamm.brussels-250528-GAN.rds ...
+2026-07-09 01:53:39,590 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-07-09 01:53:39,594 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-07-09 01:53:39,595 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-07-09 01:53:41,832 | INFO |    ✅ [Rscript] 1,954 lignes × 528 colonnes
+2026-07-09 01:53:41,833 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('GAN')
+2026-07-09 01:53:41,846 | INFO |    [GAN] 5 col. insuffisantes exclues
+2026-07-09 01:53:41,942 | INFO |    [GAN] 523 variables retenues (163 quant, 360 cat)
+2026-07-09 01:53:41,942 | INFO | 
+=================================================================
+2026-07-09 01:53:41,942 | INFO | ✅ [GAN] CHARGEMENT TERMINÉ
+2026-07-09 01:53:41,942 | INFO |    Mode         : single
+2026-07-09 01:53:41,942 | INFO |    Observations : 1,954
+2026-07-09 01:53:41,942 | INFO |    Variables    : 523 (163 quant, 360 cat)
+2026-07-09 01:53:41,943 | INFO |    Enquêtes     : ['GAN']
+2026-07-09 01:53:41,949 | INFO |    Mémoire      : 8.7 MB
+2026-07-09 01:53:41,949 | INFO | =================================================================
+2026-07-09 01:53:42,174 | INFO | 💾 Cache sauvegardé : data\cache\v1.parquet | méta : data\cache\v1.meta.json
+2026-07-09 01:53:42,377 | INFO | ♻️  Cache chargé : data\cache\v1.parquet
+2026-07-09 01:53:42,377 | INFO | 
+=================================================================
+2026-07-09 01:53:42,378 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-07-09 01:53:42,378 | INFO |    Mode         : single
+2026-07-09 01:53:42,378 | INFO |    Observations : 2,251
+2026-07-09 01:53:42,378 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-07-09 01:53:42,378 | INFO |    Enquêtes     : ['CVAE']
+2026-07-09 01:53:42,396 | INFO |    Mémoire      : 10.0 MB
+2026-07-09 01:53:42,397 | INFO | =================================================================
+2026-07-09 01:53:42,398 | INFO | =================================================================
+2026-07-09 01:53:42,398 | INFO | MODE FUTUR — Dossier de fichiers .rds par enquête
+2026-07-09 01:53:42,398 | INFO | Dossier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\by_survey
+2026-07-09 01:53:42,399 | INFO | =================================================================
+2026-07-09 01:53:42,399 | INFO | 4 fichier(s) .rds trouvé(s)
+2026-07-09 01:53:42,400 | INFO | 
+📂 eu_lfs.rds → EU-LFS
+2026-07-09 01:53:42,401 | INFO |    Lecture de eu_lfs.rds ...
+2026-07-09 01:53:42,418 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-07-09 01:53:42,419 | INFO |    [EU-LFS] 5 variables retenues (3 quant, 2 cat)
+2026-07-09 01:53:42,420 | INFO | 
+📂 eu_silc.rds → EU-SILC
+2026-07-09 01:53:42,421 | INFO |    Lecture de eu_silc.rds ...
+2026-07-09 01:53:42,435 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-07-09 01:53:42,437 | INFO |    [EU-SILC] 5 variables retenues (3 quant, 2 cat)
+2026-07-09 01:53:42,437 | INFO | 
+📂 hbs.rds → HBS
+2026-07-09 01:53:42,438 | INFO |    Lecture de hbs.rds ...
+2026-07-09 01:53:42,453 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-07-09 01:53:42,454 | INFO |    [HBS] 4 variables retenues (2 quant, 2 cat)
+2026-07-09 01:53:42,455 | INFO | 
+📂 hfcs.rds → HFCS
+2026-07-09 01:53:42,456 | INFO |    Lecture de hfcs.rds ...
+2026-07-09 01:53:42,469 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-07-09 01:53:42,471 | INFO |    [HFCS] 4 variables retenues (2 quant, 2 cat)
+2026-07-09 01:53:42,472 | INFO | 
+🔗 Fusion de 4 fichiers → 300 lignes communes
+2026-07-09 01:53:42,476 | INFO | 
+=================================================================
+2026-07-09 01:53:42,476 | INFO | ✅ [Real data (futur)] CHARGEMENT TERMINÉ
+2026-07-09 01:53:42,476 | INFO |    Mode         : folder
+2026-07-09 01:53:42,476 | INFO |    Observations : 300
+2026-07-09 01:53:42,476 | INFO |    Variables    : 18 (10 quant, 8 cat)
+2026-07-09 01:53:42,476 | INFO |    Enquêtes     : ['EU-LFS', 'EU-SILC', 'HBS', 'HFCS']
+2026-07-09 01:53:42,478 | INFO |    Mémoire      : 0.0 MB
+2026-07-09 01:53:42,478 | INFO | =================================================================
+2026-08-04 00:34:00,001 | INFO | =================================================================
+2026-08-04 00:34:00,002 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-08-04 00:34:00,003 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-CVAE.rds
+2026-08-04 00:34:00,003 | INFO | Label   : CVAE
+2026-08-04 00:34:00,003 | INFO | =================================================================
+2026-08-04 00:34:00,003 | INFO |    Lecture de beamm.brussels-250528-CVAE.rds ...
+2026-08-04 00:34:00,542 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-08-04 00:34:01,500 | INFO | cffi mode is CFFI_MODE.ANY
+2026-08-04 00:34:01,920 | INFO | R home found: C:\Program Files\R\R-4.3.3
+2026-08-04 00:34:01,940 | INFO | R exec path: C:\Program Files\R\R-4.3.3\bin\x64\R.exe
+2026-08-04 00:34:02,215 | WARNING | Error importing in API mode: ImportError('DLL load failed while importing _rinterface_cffi_api: La procédure spécifiée est introuvable.')
+2026-08-04 00:34:02,275 | WARNING | Trying to import in ABI mode.
+2026-08-04 00:34:02,358 | INFO | Default options to initialize R: rpy2, --quiet, --no-save
+2026-08-04 00:34:02,387 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-08-04 00:34:02,390 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-08-04 00:34:06,994 | INFO |    ✅ [Rscript] 2,251 lignes × 528 colonnes
+2026-08-04 00:34:07,015 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('CVAE')
+2026-08-04 00:34:07,041 | INFO |    [CVAE] 10 col. insuffisantes exclues
+2026-08-04 00:34:07,260 | INFO |    [CVAE] 518 variables retenues (156 quant, 362 cat)
+2026-08-04 00:34:07,260 | INFO | 
+=================================================================
+2026-08-04 00:34:07,260 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-08-04 00:34:07,261 | INFO |    Mode         : single
+2026-08-04 00:34:07,261 | INFO |    Observations : 2,251
+2026-08-04 00:34:07,261 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-08-04 00:34:07,261 | INFO |    Enquêtes     : ['CVAE']
+2026-08-04 00:34:07,275 | INFO |    Mémoire      : 10.0 MB
+2026-08-04 00:34:07,275 | INFO | =================================================================
+2026-08-04 00:34:07,292 | INFO | =================================================================
+2026-08-04 00:34:07,292 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-08-04 00:34:07,292 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-GAN.rds
+2026-08-04 00:34:07,292 | INFO | Label   : GAN
+2026-08-04 00:34:07,293 | INFO | =================================================================
+2026-08-04 00:34:07,293 | INFO |    Lecture de beamm.brussels-250528-GAN.rds ...
+2026-08-04 00:34:07,494 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-08-04 00:34:07,499 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-08-04 00:34:07,499 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-08-04 00:34:11,132 | INFO |    ✅ [Rscript] 1,954 lignes × 528 colonnes
+2026-08-04 00:34:11,133 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('GAN')
+2026-08-04 00:34:11,152 | INFO |    [GAN] 5 col. insuffisantes exclues
+2026-08-04 00:34:11,307 | INFO |    [GAN] 523 variables retenues (163 quant, 360 cat)
+2026-08-04 00:34:11,308 | INFO | 
+=================================================================
+2026-08-04 00:34:11,308 | INFO | ✅ [GAN] CHARGEMENT TERMINÉ
+2026-08-04 00:34:11,308 | INFO |    Mode         : single
+2026-08-04 00:34:11,308 | INFO |    Observations : 1,954
+2026-08-04 00:34:11,309 | INFO |    Variables    : 523 (163 quant, 360 cat)
+2026-08-04 00:34:11,309 | INFO |    Enquêtes     : ['GAN']
+2026-08-04 00:34:11,317 | INFO |    Mémoire      : 8.7 MB
+2026-08-04 00:34:11,318 | INFO | =================================================================
+2026-08-04 00:34:12,083 | INFO | 💾 Cache sauvegardé : data\cache\v1.parquet | méta : data\cache\v1.meta.json
+2026-08-04 00:34:12,804 | INFO | ♻️  Cache chargé : data\cache\v1.parquet
+2026-08-04 00:34:12,804 | INFO | 
+=================================================================
+2026-08-04 00:34:12,804 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-08-04 00:34:12,805 | INFO |    Mode         : single
+2026-08-04 00:34:12,805 | INFO |    Observations : 2,251
+2026-08-04 00:34:12,805 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-08-04 00:34:12,806 | INFO |    Enquêtes     : ['CVAE']
+2026-08-04 00:34:12,826 | INFO |    Mémoire      : 10.0 MB
+2026-08-04 00:34:12,826 | INFO | =================================================================
+2026-08-04 00:34:12,828 | INFO | =================================================================
+2026-08-04 00:34:12,828 | INFO | MODE FUTUR — Dossier de fichiers .rds par enquête
+2026-08-04 00:34:12,829 | INFO | Dossier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\by_survey
+2026-08-04 00:34:12,829 | INFO | =================================================================
+2026-08-04 00:34:12,830 | INFO | 4 fichier(s) .rds trouvé(s)
+2026-08-04 00:34:12,830 | INFO | 
+📂 eu_lfs.rds → EU-LFS
+2026-08-04 00:34:12,831 | INFO |    Lecture de eu_lfs.rds ...
+2026-08-04 00:34:12,852 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-08-04 00:34:12,854 | INFO |    [EU-LFS] 5 variables retenues (3 quant, 2 cat)
+2026-08-04 00:34:12,862 | INFO | 
+📂 eu_silc.rds → EU-SILC
+2026-08-04 00:34:12,862 | INFO |    Lecture de eu_silc.rds ...
+2026-08-04 00:34:12,881 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-08-04 00:34:12,883 | INFO |    [EU-SILC] 5 variables retenues (3 quant, 2 cat)
+2026-08-04 00:34:12,884 | INFO | 
+📂 hbs.rds → HBS
+2026-08-04 00:34:12,885 | INFO |    Lecture de hbs.rds ...
+2026-08-04 00:34:12,905 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-08-04 00:34:12,911 | INFO |    [HBS] 4 variables retenues (2 quant, 2 cat)
+2026-08-04 00:34:12,914 | INFO | 
+📂 hfcs.rds → HFCS
+2026-08-04 00:34:12,915 | INFO |    Lecture de hfcs.rds ...
+2026-08-04 00:34:12,933 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-08-04 00:34:12,935 | INFO |    [HFCS] 4 variables retenues (2 quant, 2 cat)
+2026-08-04 00:34:12,935 | INFO | 
+🔗 Fusion de 4 fichiers → 300 lignes communes
+2026-08-04 00:34:12,937 | INFO | 
+=================================================================
+2026-08-04 00:34:12,937 | INFO | ✅ [Real data (futur)] CHARGEMENT TERMINÉ
+2026-08-04 00:34:12,937 | INFO |    Mode         : folder
+2026-08-04 00:34:12,938 | INFO |    Observations : 300
+2026-08-04 00:34:12,938 | INFO |    Variables    : 18 (10 quant, 8 cat)
+2026-08-04 00:34:12,938 | INFO |    Enquêtes     : ['EU-LFS', 'EU-SILC', 'HBS', 'HFCS']
+2026-08-04 00:34:12,945 | INFO |    Mémoire      : 0.0 MB
+2026-08-04 00:34:12,946 | INFO | =================================================================
+2026-08-21 20:43:47,539 | INFO | =================================================================
+2026-08-21 20:43:47,539 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-08-21 20:43:47,539 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-CVAE.rds
+2026-08-21 20:43:47,539 | INFO | Label   : CVAE
+2026-08-21 20:43:47,539 | INFO | =================================================================
+2026-08-21 20:43:47,539 | INFO |    Lecture de beamm.brussels-250528-CVAE.rds ...
+2026-08-21 20:43:47,785 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-08-21 20:43:47,919 | INFO | cffi mode is CFFI_MODE.ANY
+2026-08-21 20:43:47,939 | INFO | R home found: C:\Program Files\R\R-4.3.3
+2026-08-21 20:43:47,942 | INFO | R exec path: C:\Program Files\R\R-4.3.3\bin\x64\R.exe
+2026-08-21 20:43:48,572 | WARNING | Error importing in API mode: ImportError('DLL load failed while importing _rinterface_cffi_api: La procédure spécifiée est introuvable.')
+2026-08-21 20:43:48,653 | WARNING | Trying to import in ABI mode.
+2026-08-21 20:43:48,720 | INFO | Default options to initialize R: rpy2, --quiet, --no-save
+2026-08-21 20:43:48,732 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-08-21 20:43:48,735 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-08-21 20:43:52,074 | INFO |    ✅ [Rscript] 2,251 lignes × 528 colonnes
+2026-08-21 20:43:52,090 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('CVAE')
+2026-08-21 20:43:52,090 | INFO |    [CVAE] 10 col. insuffisantes exclues
+2026-08-21 20:43:52,223 | INFO |    [CVAE] 518 variables retenues (156 quant, 362 cat)
+2026-08-21 20:43:52,223 | INFO | 
+=================================================================
+2026-08-21 20:43:52,223 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-08-21 20:43:52,223 | INFO |    Mode         : single
+2026-08-21 20:43:52,223 | INFO |    Observations : 2,251
+2026-08-21 20:43:52,223 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-08-21 20:43:52,223 | INFO |    Enquêtes     : ['CVAE']
+2026-08-21 20:43:52,223 | INFO |    Mémoire      : 10.0 MB
+2026-08-21 20:43:52,223 | INFO | =================================================================
+2026-08-21 20:43:52,245 | INFO | =================================================================
+2026-08-21 20:43:52,246 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-08-21 20:43:52,246 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-GAN.rds
+2026-08-21 20:43:52,246 | INFO | Label   : GAN
+2026-08-21 20:43:52,247 | INFO | =================================================================
+2026-08-21 20:43:52,247 | INFO |    Lecture de beamm.brussels-250528-GAN.rds ...
+2026-08-21 20:43:52,361 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-08-21 20:43:52,377 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-08-21 20:43:52,377 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-08-21 20:43:54,626 | INFO |    ✅ [Rscript] 1,954 lignes × 528 colonnes
+2026-08-21 20:43:54,656 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('GAN')
+2026-08-21 20:43:54,694 | INFO |    [GAN] 5 col. insuffisantes exclues
+2026-08-21 20:43:54,809 | INFO |    [GAN] 523 variables retenues (163 quant, 360 cat)
+2026-08-21 20:43:54,809 | INFO | 
+=================================================================
+2026-08-21 20:43:54,809 | INFO | ✅ [GAN] CHARGEMENT TERMINÉ
+2026-08-21 20:43:54,809 | INFO |    Mode         : single
+2026-08-21 20:43:54,809 | INFO |    Observations : 1,954
+2026-08-21 20:43:54,809 | INFO |    Variables    : 523 (163 quant, 360 cat)
+2026-08-21 20:43:54,809 | INFO |    Enquêtes     : ['GAN']
+2026-08-21 20:43:54,809 | INFO |    Mémoire      : 8.7 MB
+2026-08-21 20:43:54,809 | INFO | =================================================================
+2026-08-21 20:43:55,049 | INFO | 💾 Cache sauvegardé : data\cache\v1.parquet | méta : data\cache\v1.meta.json
+2026-08-21 20:43:55,224 | INFO | ♻️  Cache chargé : data\cache\v1.parquet
+2026-08-21 20:43:55,224 | INFO | 
+=================================================================
+2026-08-21 20:43:55,224 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-08-21 20:43:55,224 | INFO |    Mode         : single
+2026-08-21 20:43:55,224 | INFO |    Observations : 2,251
+2026-08-21 20:43:55,224 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-08-21 20:43:55,224 | INFO |    Enquêtes     : ['CVAE']
+2026-08-21 20:43:55,250 | INFO |    Mémoire      : 10.0 MB
+2026-08-21 20:43:55,250 | INFO | =================================================================
+2026-08-21 20:43:55,251 | INFO | =================================================================
+2026-08-21 20:43:55,251 | INFO | MODE FUTUR — Dossier de fichiers .rds par enquête
+2026-08-21 20:43:55,251 | INFO | Dossier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\by_survey
+2026-08-21 20:43:55,251 | INFO | =================================================================
+2026-08-21 20:43:55,252 | INFO | 4 fichier(s) .rds trouvé(s)
+2026-08-21 20:43:55,252 | INFO | 
+📂 eu_lfs.rds → EU-LFS
+2026-08-21 20:43:55,253 | INFO |    Lecture de eu_lfs.rds ...
+2026-08-21 20:43:55,266 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-08-21 20:43:55,266 | INFO |    [EU-LFS] 5 variables retenues (3 quant, 2 cat)
+2026-08-21 20:43:55,266 | INFO | 
+📂 eu_silc.rds → EU-SILC
+2026-08-21 20:43:55,266 | INFO |    Lecture de eu_silc.rds ...
+2026-08-21 20:43:55,286 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-08-21 20:43:55,286 | INFO |    [EU-SILC] 5 variables retenues (3 quant, 2 cat)
+2026-08-21 20:43:55,286 | INFO | 
+📂 hbs.rds → HBS
+2026-08-21 20:43:55,286 | INFO |    Lecture de hbs.rds ...
+2026-08-21 20:43:55,326 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-08-21 20:43:55,345 | INFO |    [HBS] 4 variables retenues (2 quant, 2 cat)
+2026-08-21 20:43:55,380 | INFO | 
+📂 hfcs.rds → HFCS
+2026-08-21 20:43:55,381 | INFO |    Lecture de hfcs.rds ...
+2026-08-21 20:43:55,399 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-08-21 20:43:55,399 | INFO |    [HFCS] 4 variables retenues (2 quant, 2 cat)
+2026-08-21 20:43:55,399 | INFO | 
+🔗 Fusion de 4 fichiers → 300 lignes communes
+2026-08-21 20:43:55,399 | INFO | 
+=================================================================
+2026-08-21 20:43:55,407 | INFO | ✅ [Real data (futur)] CHARGEMENT TERMINÉ
+2026-08-21 20:43:55,408 | INFO |    Mode         : folder
+2026-08-21 20:43:55,408 | INFO |    Observations : 300
+2026-08-21 20:43:55,409 | INFO |    Variables    : 18 (10 quant, 8 cat)
+2026-08-21 20:43:55,411 | INFO |    Enquêtes     : ['EU-LFS', 'EU-SILC', 'HBS', 'HFCS']
+2026-08-21 20:43:55,412 | INFO |    Mémoire      : 0.0 MB
+2026-08-21 20:43:55,415 | INFO | =================================================================
+2026-08-22 23:17:52,610 | INFO | =================================================================
+2026-08-22 23:17:52,610 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-08-22 23:17:52,610 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-CVAE.rds
+2026-08-22 23:17:52,610 | INFO | Label   : CVAE
+2026-08-22 23:17:52,610 | INFO | =================================================================
+2026-08-22 23:17:52,624 | INFO |    Lecture de beamm.brussels-250528-CVAE.rds ...
+2026-08-22 23:17:52,874 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-08-22 23:17:52,964 | INFO | cffi mode is CFFI_MODE.ANY
+2026-08-22 23:17:52,974 | INFO | R home found: C:\Program Files\R\R-4.3.3
+2026-08-22 23:17:52,979 | INFO | R exec path: C:\Program Files\R\R-4.3.3\bin\x64\R.exe
+2026-08-22 23:17:53,133 | WARNING | Error importing in API mode: ImportError('DLL load failed while importing _rinterface_cffi_api: La procédure spécifiée est introuvable.')
+2026-08-22 23:17:53,176 | WARNING | Trying to import in ABI mode.
+2026-08-22 23:17:53,243 | INFO | Default options to initialize R: rpy2, --quiet, --no-save
+2026-08-22 23:17:53,248 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-08-22 23:17:53,256 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-08-22 23:17:56,270 | INFO |    ✅ [Rscript] 2,251 lignes × 528 colonnes
+2026-08-22 23:17:56,270 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('CVAE')
+2026-08-22 23:17:56,285 | INFO |    [CVAE] 10 col. insuffisantes exclues
+2026-08-22 23:17:56,423 | INFO |    [CVAE] 518 variables retenues (156 quant, 362 cat)
+2026-08-22 23:17:56,423 | INFO | 
+=================================================================
+2026-08-22 23:17:56,423 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-08-22 23:17:56,423 | INFO |    Mode         : single
+2026-08-22 23:17:56,423 | INFO |    Observations : 2,251
+2026-08-22 23:17:56,423 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-08-22 23:17:56,423 | INFO |    Enquêtes     : ['CVAE']
+2026-08-22 23:17:56,439 | INFO |    Mémoire      : 10.0 MB
+2026-08-22 23:17:56,439 | INFO | =================================================================
+2026-08-22 23:17:56,454 | INFO | =================================================================
+2026-08-22 23:17:56,454 | INFO | MODE PRINCIPAL — Fichier .rds unique
+2026-08-22 23:17:56,456 | INFO | Fichier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\beamm.brussels-250528-GAN.rds
+2026-08-22 23:17:56,456 | INFO | Label   : GAN
+2026-08-22 23:17:56,456 | INFO | =================================================================
+2026-08-22 23:17:56,456 | INFO |    Lecture de beamm.brussels-250528-GAN.rds ...
+2026-08-22 23:17:56,570 | WARNING |    ⚠️  pyreadr échoué (LibrdataError: Invalid file, or file has unsupported features) → essai rpy2...
+2026-08-22 23:17:56,570 | WARNING |    ⚠️  rpy2 échoué (error: symbol 'R_getVar' not found in library 'C:\Program Files\R\R-4.3.3\bin\x64\R.dll': error 0x7f) → essai subprocess R...
+2026-08-22 23:17:56,585 | INFO |    🔧 Tentative via subprocess R (conversion en CSV temporaire)...
+2026-08-22 23:17:58,752 | INFO |    ✅ [Rscript] 1,954 lignes × 528 colonnes
+2026-08-22 23:17:58,752 | INFO | Colonne 'survey' absente → fichier traité comme enquête unique ('GAN')
+2026-08-22 23:17:58,759 | INFO |    [GAN] 5 col. insuffisantes exclues
+2026-08-22 23:17:58,859 | INFO |    [GAN] 523 variables retenues (163 quant, 360 cat)
+2026-08-22 23:17:58,859 | INFO | 
+=================================================================
+2026-08-22 23:17:58,859 | INFO | ✅ [GAN] CHARGEMENT TERMINÉ
+2026-08-22 23:17:58,863 | INFO |    Mode         : single
+2026-08-22 23:17:58,863 | INFO |    Observations : 1,954
+2026-08-22 23:17:58,864 | INFO |    Variables    : 523 (163 quant, 360 cat)
+2026-08-22 23:17:58,864 | INFO |    Enquêtes     : ['GAN']
+2026-08-22 23:17:58,864 | INFO |    Mémoire      : 8.7 MB
+2026-08-22 23:17:58,864 | INFO | =================================================================
+2026-08-22 23:17:59,360 | INFO | 💾 Cache sauvegardé : data\cache\v1.parquet | méta : data\cache\v1.meta.json
+2026-08-22 23:17:59,913 | INFO | ♻️  Cache chargé : data\cache\v1.parquet
+2026-08-22 23:17:59,913 | INFO | 
+=================================================================
+2026-08-22 23:17:59,913 | INFO | ✅ [CVAE] CHARGEMENT TERMINÉ
+2026-08-22 23:17:59,913 | INFO |    Mode         : single
+2026-08-22 23:17:59,913 | INFO |    Observations : 2,251
+2026-08-22 23:17:59,913 | INFO |    Variables    : 518 (156 quant, 362 cat)
+2026-08-22 23:17:59,913 | INFO |    Enquêtes     : ['CVAE']
+2026-08-22 23:17:59,939 | INFO |    Mémoire      : 10.0 MB
+2026-08-22 23:17:59,939 | INFO | =================================================================
+2026-08-22 23:17:59,939 | INFO | =================================================================
+2026-08-22 23:17:59,939 | INFO | MODE FUTUR — Dossier de fichiers .rds par enquête
+2026-08-22 23:17:59,939 | INFO | Dossier : C:\Users\Etudiant\Downloads\Memoire data\LLM\data\rds\by_survey
+2026-08-22 23:17:59,939 | INFO | =================================================================
+2026-08-22 23:17:59,949 | INFO | 4 fichier(s) .rds trouvé(s)
+2026-08-22 23:17:59,949 | INFO | 
+📂 eu_lfs.rds → EU-LFS
+2026-08-22 23:17:59,949 | INFO |    Lecture de eu_lfs.rds ...
+2026-08-22 23:17:59,961 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-08-22 23:17:59,968 | INFO |    [EU-LFS] 5 variables retenues (3 quant, 2 cat)
+2026-08-22 23:17:59,969 | INFO | 
+📂 eu_silc.rds → EU-SILC
+2026-08-22 23:17:59,970 | INFO |    Lecture de eu_silc.rds ...
+2026-08-22 23:17:59,985 | INFO |    ✅ [pyreadr] 300 lignes × 5 colonnes
+2026-08-22 23:17:59,987 | INFO |    [EU-SILC] 5 variables retenues (3 quant, 2 cat)
+2026-08-22 23:17:59,988 | INFO | 
+📂 hbs.rds → HBS
+2026-08-22 23:17:59,988 | INFO |    Lecture de hbs.rds ...
+2026-08-22 23:18:00,005 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-08-22 23:18:00,007 | INFO |    [HBS] 4 variables retenues (2 quant, 2 cat)
+2026-08-22 23:18:00,007 | INFO | 
+📂 hfcs.rds → HFCS
+2026-08-22 23:18:00,007 | INFO |    Lecture de hfcs.rds ...
+2026-08-22 23:18:00,023 | INFO |    ✅ [pyreadr] 300 lignes × 4 colonnes
+2026-08-22 23:18:00,023 | INFO |    [HFCS] 4 variables retenues (2 quant, 2 cat)
+2026-08-22 23:18:00,023 | INFO | 
+🔗 Fusion de 4 fichiers → 300 lignes communes
+2026-08-22 23:18:00,023 | INFO | 
+=================================================================
+2026-08-22 23:18:00,023 | INFO | ✅ [Real data (futur)] CHARGEMENT TERMINÉ
+2026-08-22 23:18:00,023 | INFO |    Mode         : folder
+2026-08-22 23:18:00,023 | INFO |    Observations : 300
+2026-08-22 23:18:00,023 | INFO |    Variables    : 18 (10 quant, 8 cat)
+2026-08-22 23:18:00,023 | INFO |    Enquêtes     : ['EU-LFS', 'EU-SILC', 'HBS', 'HFCS']
+2026-08-22 23:18:00,023 | INFO |    Mémoire      : 0.0 MB
+2026-08-22 23:18:00,023 | INFO | =================================================================
