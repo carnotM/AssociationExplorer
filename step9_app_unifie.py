@@ -1124,10 +1124,9 @@ def update_volcano(df_volcano, ds_filter, type_filter):
     if not isinstance(df_volcano, pd.DataFrame) or df_volcano.empty:
         return EMPTY, EMPTY
     df = df_volcano.copy()
+    # Filtre dataset — "WGAN" correspond directement à la colonne dataset
     if ds_filter not in ("Tous", "") and "dataset" in df.columns:
-        # Mapper WGAN → GAN pour le filtre interne
-        ds_internal = "GAN" if ds_filter == "WGAN" else ds_filter
-        df = df[df["dataset"] == ds_internal]
+        df = df[df["dataset"] == ds_filter]
     if type_filter and "type_paire" in df.columns:
         df = df[df["type_paire"].isin(type_filter)]
     return (df, df) if not df.empty else (EMPTY, EMPTY)
@@ -1584,12 +1583,14 @@ pour voir son positionnement dans le modèle LOESS et la décomposition de Surpr
                     x          = "r2_unifie",
                     y          = "surprise_b",
                     color      = "Partition",
-                    color_map  = {"S_découverte ●": "#D62728", "S_attendu ○": "#AEC6E0"},
                     tooltip    = ["var_associee","type_paire","dataset",
                                   "r2_unifie","q_fmt","surprise_b","n_obs","tau"],
                     x_title    = "Force statistique (R²_unifié)",
                     y_title    = "Surprise_B = ε̂/σ̂ (caractère inattendu)",
-                    caption    = "Rouge = S_découverte (Surprise_B ≥ τ)  |  Bleu = S_attendu",
+                    caption    = (
+                        "🔴 S_découverte ● (Surprise_B ≥ τ) = associations fortes ET inattendues  "
+                        "·  🔵 S_attendu ○ (Surprise_B < τ) = associations prévisibles"
+                    ),
                     height     = 500,
                 )
 
